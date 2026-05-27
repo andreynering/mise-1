@@ -1,5 +1,70 @@
 # Changelog
 
+## [2026.5.16](https://github.com/jdx/mise/compare/v2026.5.15..v2026.5.16) - 2026-05-27
+
+### 🐛 Bug Fixes
+
+- **(aqua)** skip in-place link when src and dst alias same inode by @tvararu in [#10012](https://github.com/jdx/mise/pull/10012)
+- **(backend)** strip system shims dir from dependency_env PATH by @andrewjamesbrown in [#10019](https://github.com/jdx/mise/pull/10019)
+- **(copr)** increase build timeout by @jdx in [#10071](https://github.com/jdx/mise/pull/10071)
+- **(install)** reject disabled backends by @risu729 in [#9905](https://github.com/jdx/mise/pull/9905)
+- **(upgrade)** improve current version detection by @jdx in [#9973](https://github.com/jdx/mise/pull/9973)
+
+### ⚡ Performance
+
+- cache repeated path canonicalization by @jdx in [#10068](https://github.com/jdx/mise/pull/10068)
+
+### 🧪 Testing
+
+- **(http)** cover current config over install manifest opts by @risu729 in [#9915](https://github.com/jdx/mise/pull/9915)
+
+### 🛡️ Security
+
+- **(security)** apply url replacements to GitHub attestations by @SlaterByte in [#9971](https://github.com/jdx/mise/pull/9971)
+
+### 📦️ Dependency Updates
+
+- lock file maintenance by @renovate[bot] in [#10060](https://github.com/jdx/mise/pull/10060)
+- lock file maintenance by @renovate[bot] in [#10062](https://github.com/jdx/mise/pull/10062)
+
+### 📦 Registry
+
+- add modem-dev/hunk ([aqua:modem-dev/hunk](https://github.com/modem-dev/hunk)) by @naoki-mizuno in [#10051](https://github.com/jdx/mise/pull/10051)
+- add wacli by @dovocoder in [#10043](https://github.com/jdx/mise/pull/10043)
+- add github backend and test for Liquibase by @benberryallwood in [#10052](https://github.com/jdx/mise/pull/10052)
+
+### Chore
+
+- **(ci)** disable setup-node cache for npm publish by @jdx in [#10070](https://github.com/jdx/mise/pull/10070)
+
+### New Contributors
+
+- @HYP3R00T made their first contribution in [#10081](https://github.com/jdx/mise/pull/10081)
+- @SlaterByte made their first contribution in [#9971](https://github.com/jdx/mise/pull/9971)
+- @andrewjamesbrown made their first contribution in [#10019](https://github.com/jdx/mise/pull/10019)
+- @dovocoder made their first contribution in [#10043](https://github.com/jdx/mise/pull/10043)
+- @naoki-mizuno made their first contribution in [#10051](https://github.com/jdx/mise/pull/10051)
+- @ofek made their first contribution in [#10059](https://github.com/jdx/mise/pull/10059)
+
+### 📦 Aqua Registry Updates
+
+#### New Packages (5)
+
+- [`databricks/cli`](https://github.com/databricks/cli)
+- [`felixgwilliams/nbwipers`](https://github.com/felixgwilliams/nbwipers)
+- [`jgm/pandoc`](https://github.com/jgm/pandoc)
+- [`ktlint/ktlint`](https://github.com/ktlint/ktlint)
+- `x.ai/cli/grok`
+
+#### Updated Packages (6)
+
+- [`betterleaks/betterleaks`](https://github.com/betterleaks/betterleaks)
+- [`coder/coder`](https://github.com/coder/coder)
+- [`gittuf/gittuf`](https://github.com/gittuf/gittuf)
+- [`jdx/mise`](https://github.com/jdx/mise)
+- [`jedisct1/minisign`](https://github.com/jedisct1/minisign)
+- [`minio/mc`](https://github.com/minio/mc)
+
 ## [2026.5.15](https://github.com/jdx/mise/compare/v2026.5.14..v2026.5.15) - 2026-05-23
 
 ### 🐛 Bug Fixes
